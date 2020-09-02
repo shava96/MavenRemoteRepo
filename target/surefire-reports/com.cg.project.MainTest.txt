@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.cg.project.MainTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec <<< FAILURE!
-test1(com.cg.project.MainTest)  Time elapsed: 0.023 sec  <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec <<< FAILURE!
+test1(com.cg.project.MainTest)  Time elapsed: 0.012 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: test1 has failed
 	at junit.framework.Assert.fail(Assert.java:57)
 	at com.cg.project.MainTest.test1(MainTest.java:11)
@@ -39,7 +39,7 @@ junit.framework.AssertionFailedError: test1 has failed
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test3(com.cg.project.MainTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+test3(com.cg.project.MainTest)  Time elapsed: 0 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: test1 has failed
 	at junit.framework.Assert.fail(Assert.java:57)
 	at com.cg.project.MainTest.test3(MainTest.java:18)
